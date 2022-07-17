@@ -1,0 +1,81 @@
+.hidden{
+    display: none;
+}
+h1{
+    margin:0;
+    padding:20px 0;
+    color: whitesmoke;
+}
+html{
+    background: url(https://source.unsplash.com/random) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-backgrouond-size: cover;
+    background-size: cover;
+}
+#clock{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+#greeting{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#login-form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#login-form>input{
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#quote{
+    color: blanchedalmond;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#weather{
+    color: white;
+}
+#todo-form{
+    position: fixed;
+    top: 550px;
+    right: 50px;
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid black;
+}
+#todo-list button{
+    border: 3px solid aliceblue;
+    color:#1e6b7b;
+}
+#todo-list{
+    position: fixed;
+    top: 600px;
+    right: 50px;
+    width: 300px;
+    height: 50px;
+}
+
+#todo-list span{
+    color:azure;
+}
+#weather{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    color: blanchedalmond;
+}
